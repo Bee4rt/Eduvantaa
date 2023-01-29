@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.header{
+   
+    background: linear-gradient(rgba(0,0,0,0.7) , rgba(0, 0, 0, 0.9)) , url(../images/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-decoration: none; 
+    position: relative;  
+}
+
+
+/*====================================Navbare_Start============================================================*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    
+}
+
+.navbare{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px 0 10px 0;
+    color: #fff;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    margin:23px 10px ;
+
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    margin: 10px 10px;
+    transition: .5s;
+}
+
+nav ul li a:hover{
+    color: cornflowerblue;
+}
+
+.active{
+    background-color:cornflowerblue;
+    color:#fff;
+    padding: 10px;
+    border-radius: 2px ;
+    
+    transition: .5s;
+}
+
+.active:hover{
+    background-color:#fff;
+    color:cornflowerblue;
+    padding: 12px;
+}
+/*====================================Navbare_End============================================================*/
+
+
+
+
+
+
+
+/*====================================Hero-content_Start============================================================*/
+.hero__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+
+
+h1{
+   color: #fff;
+   font-size: 63px; 
+   text-align: center;
+    margin-bottom: 40px;
+    line-height: 70px;
+}
+
+.coders{
+    color: cornflowerblue;
+}
+
+.hero__paragraphe{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 90px;
+}
+
+.hero__content a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+ 
+}
+
+.btn{
+    padding: 15px 30px;
+    margin: 0 20px 0 20px;
+    border-radius: 2px;
+    background-color: cornflowerblue;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: rgb(54, 96, 175);
+    padding: 20px 35px;
+}
+/*====================================Hero-content_End==============================================================*/
+
+
+
+
+
+
+
+/*====================================About_Start============================================================*/
+#nav{
+    background-color: #333;
+    
+}
+.aboutus{
+    margin-bottom: 150px;
+    
+}
+
+.about__title{
+    text-align: center;
+    margin-top: 25px;
+}
+
+h2{
+    font-size: 50px;
+    color: cornflowerblue;
+    padding: 10px 0 30px 0;
+}
+
+.about__title p{
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.about__us{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.about__us img{
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.content__about{
+    padding: 35px;
+}
+
+.content__about h3{
+    color: cornflowerblue;
+    font-size: 35px;
+    margin: 15px 0;
+
+}
+
+.content__about p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0;
+    margin-bottom: 40px;
+}
+
+
+
+
+.content__about a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+ 
+}
+
+.btns{
+    padding: 15px 30px;
+    border-radius: 2px;
+    background-color: cornflowerblue;
+    transition: .5s;
+}
+
+.btns:hover{
+    background-color: rgb(54, 96, 175);
+    padding: 20px 35px;
+}
+
+/*====================================About_End============================================================*/
+
+
+
+
+
+/*====================================Studies_Start============================================================*/
+.studies__section{
+    height: 100vh;  
+    position: relative;  
+}
+
+.clear{
+    clear: both;
+}
+
+.studies{
+    position: relative;
+    
+}
+
+
+.box{
+    width: 30%;
+    height: 350px;
+    float: left;
+    margin: 10px;
+    background-color: #eee;
+    cursor: pointer;
+    transition: .5s;
+    
+    
+}
+
+.box:hover{
+    background-color: rgba(180, 180, 180, 0.795);
+}
+
+.box i{
+    font-size: 80px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+   
+}
+.html{
+    color: orangered;
+}
+
+.css{
+    color: rgb(3, 142, 255);
+}
+
+.js{
+    color: rgb(255, 187, 0);
+}
+
+h4{
+    text-align: center;
+    margin: 15px 0 15px 0;
+    font-size: 30px;
+}
+
+ .box p{
+    text-align: center;
+    padding: 0 25px 0 25px;
+    margin-bottom: 45px;
+    
+ }
+ .box__p{
+    color: #666;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+ }
+/*====================================Studies_End============================================================*/
+
+
+
+
+
+
+
+
+
+
+/*====================================Contact_section_Start============================================================*/
+
+.contact__section{
+    height: 100vh;
+    background-color: #eee;
+}
+
+.contact__content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.contact__content form{
+flex-basis: 70%;
+}
+
+.contact__content form .main_input{
+   padding: 20px;
+   display: block;
+   border: .5px solid #eee;
+   margin-bottom: 40px;
+   width: 100%; 
+   border-radius: 20px;
+   transition: .5s;
+}
+
+
+
+.contact__content form textarea.main_input{
+    height: 250px;
+}
+
+.contact__content form input[type="submit"]{
+    background-color: cornflowerblue;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 40px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.contact__content form input[type="submit"]:hover{
+    background-color: rgb(54, 96, 175);
+    padding: 15px 45px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact__content .info {
+    flex-basis: 25%;
+}
+
+.contact__content .info h5 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.contact__content .info .phone{
+    display: block;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact__content .info .second__h5{
+    margin-top: 100px;
+}
+
+.contact__content .info address{
+   color: #333;
+   line-height: 2; 
+}
+/*====================================Contact_section_End============================================================*/
+
+
+
+
+
+
+/*====================================Footer_section_Start============================================================*/
+
+.footer__section{
+    height: 300px;
+    background-color: #222;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.links  {
+    margin-top: 100px;
+    
+}
+
+.links ul{
+    list-style-type: none;
+}
+
+.links ul li{
+    margin-bottom: 20px;
+}
+
+.links ul li a{
+    color: #666;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .5s;
+    
+}
+
+.links ul li a:hover{
+    color:cornflowerblue;   
+}
+
+.social__media{
+    margin-top: 100px;
+}
+
+.social__media i{
+    color: #fff;
+    margin: 15px;   
+    font-size: 30px;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+
+.social__media i:hover{
+    color: cornflowerblue;
+
+    
+}
+
+.follow{
+    color: #666;
+    margin: 20px 0 0 100px;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+
+.follow:hover{
+    color: cornflowerblue;
+     
+}
+
+.copy p{
+    color: #444;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+/*====================================Footer_section_End============================================================*/
